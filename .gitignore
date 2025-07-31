@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Poetry
+poetry.lock
+*.venv/
+.venv/
+env/
+.venv.bak/
+
+# Environment Variables
+.env
+.env.*
+
+# Pytest
+.cache/
+.coverage
+htmlcov/
+
+# Logs and debug
+*.log
+*.out
+*.pid
+*.dump
+
+# System/IDE
+.DS_Store
+.vscode/
+.idea/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
